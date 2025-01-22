@@ -1,0 +1,50 @@
+
+span{
+    color: var(--first-color);
+}
+.home {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    min-height: 90vh; 
+    text-align: center; 
+  }
+  
+  .intro {
+    max-width: 600px; 
+    padding: 20px; 
+  }
+  
+  .home__img {
+    margin-bottom: 20px; 
+    border-radius: 50%; 
+  }
+  
+  .home__name {
+    font-size: 2.3rem;
+    margin-bottom: 10px;
+  }
+  
+  .home__eduction {
+    font-size: 1rem;
+    line-height: 2;
+   
+  }
+  .home__socials {
+    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+    gap: 15px; 
+  }
+  
+  .home__social-link {
+    color: inherit; 
+    font-size: 1.5rem; 
+    transition: transform 0.3s ease; 
+  }
+  
+  .home__social-link:hover {
+    transform: scale(1.2); 
+    color: #0077b5; 
+  }
+  
